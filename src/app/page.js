@@ -416,7 +416,9 @@ useEffect(() => {
   return (
 
     <main className="min-h-screen bg-black text-white overflow-hidden relative">
-<FloatingBlobs />
+<div className="hidden md:block">
+  <FloatingBlobs />
+</div>
       {/* Scroll Progress */}
 
       <motion.div
@@ -1191,7 +1193,7 @@ className="w-full h-full object-cover transition-all duration-700 group-hover:sc
 
         <p className="text-gray-400">
 
-          © 2026 Muhammad Awais.
+          © 2025 Muhammad Awais.
           All rights are reserved.
 
         </p>
