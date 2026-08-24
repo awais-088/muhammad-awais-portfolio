@@ -201,13 +201,13 @@ export default function Home() {
       title: "CNC ToolPath — Client Project",
 
       description:
-        "Professional CNC manufacturing and engineering website developed for a real client, showcasing CNC machining capabilities, services, equipment, industries served, and company information through a modern responsive interface.",
+        "A professional industrial website developed for CNC ToolPath to establish a strong digital presence and clearly communicate its CNC machining and engineering capabilities. The website presents core services, manufacturing expertise, equipment, industries served, and company information through a modern, responsive interface designed for both technical and business audiences.",
 
-      tech: "Next.js • React • Tailwind CSS • Framer Motion • Responsive UI",
+      tech: "Next.js • React • Tailwind CSS • Framer Motion • Responsive Web Design • SEO",
 
       github: null,
 
-      live: "cnctoolpath.com",
+      live: "https://cnctoolpath.com/",
 
       liveText: "Visit Website",
 
@@ -219,13 +219,13 @@ export default function Home() {
       title: "Musa Cafe & Restaurant Website",
 
       description:
-        "Modern restaurant website currently under development, designed to showcase the cafe experience, menu, location, contact information, and customer-friendly browsing experience across mobile and desktop devices.",
+        "A modern restaurant website currently under development for Musa Cafe, designed to build a strong online presence and make it easy for customers to discover the restaurant, explore its menu, view the dining experience, find the location, and get in touch. The interface is being developed with a premium visual style, responsive layouts, fast-loading pages, and a mobile-first customer experience.",
 
-      tech: "Next.js • React • Tailwind CSS • Framer Motion • SEO",
+      tech: "Next.js • React • Tailwind CSS • Framer Motion • Responsive UI • SEO • Performance Optimization",
 
       github: null,
 
-      live: "YOUR_MUSA_CAFE_PREVIEW_URL",
+      live: "https://awais-port.vercel.app/",
 
       liveText: "Preview Website",
 
