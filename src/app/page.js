@@ -37,9 +37,11 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState("about");
 
   const roles = [
+    "Full Stack Developer",
+    "Next.js Developer",
     "React Native Developer",
     "MERN Stack Developer",
-    "UI/UX Enthusiast",
+    "UI/UX Developer",
     "Software Engineer",
   ];
 
@@ -195,7 +197,42 @@ export default function Home() {
       image:
         "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop",
     },
+    {
+      title: "CNC ToolPath — Client Project",
 
+      description:
+        "Professional CNC manufacturing and engineering website developed for a real client, showcasing CNC machining capabilities, services, equipment, industries served, and company information through a modern responsive interface.",
+
+      tech: "Next.js • React • Tailwind CSS • Framer Motion • Responsive UI",
+
+      github: null,
+
+      live: "cnctoolpath.com",
+
+      liveText: "Visit Website",
+
+      status: "Client Project",
+
+      image: "/images/projects/cnc-toolpath.webp",
+    },
+    {
+      title: "Musa Cafe & Restaurant Website",
+
+      description:
+        "Modern restaurant website currently under development, designed to showcase the cafe experience, menu, location, contact information, and customer-friendly browsing experience across mobile and desktop devices.",
+
+      tech: "Next.js • React • Tailwind CSS • Framer Motion • SEO",
+
+      github: null,
+
+      live: "YOUR_MUSA_CAFE_PREVIEW_URL",
+
+      liveText: "Preview Website",
+
+      status: "Under Development",
+
+      image: "/images/projects/musa-cafe.webp",
+    },
     {
       title: "Dr. Saif Sumra – Medical Website",
 
@@ -488,8 +525,8 @@ export default function Home() {
             </h2>
 
             <p className="text-gray-400 text-lg leading-8 max-w-xl mb-10">
-              Building premium mobile and web applications with scalable
-              architecture, modern UI/UX, and real-world solutions.
+              I build fast, modern web and mobile applications for businesses,
+              startups, and real-world products.
             </p>
 
             <div className="flex flex-wrap gap-5">
@@ -672,7 +709,7 @@ export default function Home() {
 
                 <div className="p-5 sm:p-6 lg:p-8">
                   <div className="flex flex-wrap items-center gap-3 mb-4">
-                    <h3 className="text-2xl sm:text-3xl font-bold">
+                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-tight">
                       {project.title}
                     </h3>
 
@@ -700,7 +737,7 @@ export default function Home() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2 px-5 py-3 rounded-full border border-gray-700 hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
+                        className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-3 rounded-full border border-gray-700 hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
                       >
                         <FaGithub />
                         GitHub
