@@ -329,14 +329,6 @@ export default function Home() {
         "Building and delivering web and mobile applications using React, Next.js, React Native, Node.js, Express.js, MongoDB, REST APIs, and modern UI/UX practices.",
       icon: <FaBriefcase />,
     },
-    {
-      year: "2025 - Present",
-      title: "Client Projects",
-      company: "Independent Developer",
-      description:
-        "Designing and developing responsive websites and digital solutions for businesses and professionals, working from requirements and UI design through development, deployment, and ongoing improvements.",
-      icon: <FaBriefcase />,
-    },
   ];
   if (isLoading) {
     return (
