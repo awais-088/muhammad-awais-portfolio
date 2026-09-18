@@ -37,12 +37,11 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState("about");
 
   const roles = [
-    "Full Stack Developer",
+    "Software Engineer",
+    "Full-Stack Developer",
     "Next.js Developer",
     "React Native Developer",
-    "MERN Stack Developer",
-    "UI/UX Developer",
-    "Software Engineer",
+    "Product Developer",
   ];
 
   const [roleIndex, setRoleIndex] = useState(0);
@@ -135,42 +134,39 @@ export default function Home() {
 
   const skills = [
     {
-      name: "React Native",
-      icon: <FaReact />,
-    },
-
-    {
       name: "React.js",
       icon: <FaReact />,
     },
-
+    {
+      name: "Next.js",
+      icon: <FaReact />,
+    },
+    {
+      name: "React Native",
+      icon: <FaReact />,
+    },
     {
       name: "Node.js",
       icon: <FaNodeJs />,
     },
-
     {
       name: "Express.js",
       icon: <SiExpress />,
     },
-
     {
       name: "MongoDB",
       icon: <SiMongodb />,
     },
-
     {
       name: "JavaScript",
       icon: <SiJavascript />,
     },
-
     {
       name: "Figma",
       icon: <FaFigma />,
     },
-
     {
-      name: "Postman API",
+      name: "Postman",
       icon: <SiPostman />,
     },
   ];
@@ -201,8 +197,7 @@ export default function Home() {
       title: "CNC ToolPath — Client Project",
 
       description:
-        "A professional industrial website developed for CNC ToolPath to establish a strong digital presence and clearly communicate its CNC machining and engineering capabilities. The website presents core services, manufacturing expertise, equipment, industries served, and company information through a modern, responsive interface designed for both technical and business audiences.",
-
+        "A production website developed for CNC ToolPath to strengthen its digital presence and communicate its CNC machining and engineering capabilities. Built with a responsive, modern interface covering services, equipment, industries, and company information, with a focus on performance, SEO, and usability.",
       tech: "Next.js • React • Tailwind CSS • Framer Motion • Responsive Web Design • SEO",
 
       github: null,
@@ -225,7 +220,7 @@ export default function Home() {
 
       github: null,
 
-      live: "https://awais-port.vercel.app/",
+      live: "https://musa-cafe-layyah.vercel.app/",
 
       liveText: "Preview Website",
 
@@ -319,31 +314,30 @@ export default function Home() {
   const timeline = [
     {
       year: "2023 - Present",
-
-      title: "Software Engineering Student",
-
+      title: "BS Software Engineering",
       company: "University of Central Punjab",
-
       description:
-        "Learning DSA, OOP, networking, databases, software engineering, and modern development technologies.",
-
+        "Currently in my 7th semester, developing a strong foundation in software engineering, algorithms, databases, networking, system design, and modern application development.",
       icon: <FaGraduationCap />,
     },
 
     {
       year: "2024 - Present",
-
-      title: "React Native & MERN Developer",
-
-      company: "Personal Projects",
-
+      title: "Full-Stack & Mobile Developer",
+      company: "Independent Projects & Client Work",
       description:
-        "Building mobile apps, UI/UX systems, APIs, and modern web applications.",
-
+        "Building and delivering web and mobile applications using React, Next.js, React Native, Node.js, Express.js, MongoDB, REST APIs, and modern UI/UX practices.",
+      icon: <FaBriefcase />,
+    },
+    {
+      year: "2025 - Present",
+      title: "Client Projects",
+      company: "Independent Developer",
+      description:
+        "Designing and developing responsive websites and digital solutions for businesses and professionals, working from requirements and UI design through development, deployment, and ongoing improvements.",
       icon: <FaBriefcase />,
     },
   ];
-
   if (isLoading) {
     return (
       <div className="fixed inset-0 bg-black flex flex-col items-center justify-center text-white text-center px-6">
@@ -351,7 +345,9 @@ export default function Home() {
           MUHAMMAD AWAIS
         </h1>
 
-        <p className="text-blue-500 text-xl">React Native Developer</p>
+        <p className="text-blue-500 text-xl">
+          Software Engineer • Full-Stack Developer
+        </p>
 
         <motion.div
           animate={{
@@ -508,7 +504,7 @@ export default function Home() {
             }}
           >
             <p className="text-blue-400 tracking-[5px] uppercase mb-5 text-sm">
-              Software Engineering Student
+              Software Engineer • Full-Stack Developer
             </p>
 
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight mb-6">
@@ -525,8 +521,9 @@ export default function Home() {
             </h2>
 
             <p className="text-gray-400 text-lg leading-8 max-w-xl mb-10">
-              I build fast, modern web and mobile applications for businesses,
-              startups, and real-world products.
+              I build modern web and mobile applications for businesses,
+              startups, and real-world products — from idea and interface to
+              development, APIs, databases, and deployment.
             </p>
 
             <div className="flex flex-wrap gap-5">
@@ -534,7 +531,7 @@ export default function Home() {
                 href="#projects"
                 className="px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-700 hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(59,130,246,0.5)]"
               >
-                View Projects
+                View My Work
               </a>
 
               <a
@@ -542,7 +539,7 @@ export default function Home() {
                 target="_blank"
                 className="px-8 py-4 rounded-full border border-gray-700 hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
               >
-                GitHub
+                Lets Work Together
               </a>
             </div>
 
@@ -558,7 +555,7 @@ export default function Home() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/mr-awais-214335357"
+                href="https://www.linkedin.com/in/muhammad-awais-214335357/"
                 target="_blank"
                 className="hover:text-blue-400 hover:scale-125 transition-all duration-300"
               >
@@ -620,11 +617,23 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <AnimatedTitle title="About Me" />
           <p className="text-gray-400 text-lg leading-10 max-w-4xl">
-            I am a Software Engineering student passionate about mobile app
-            development, MERN stack technologies, scalable software systems,
-            UI/UX design, and modern development practices. I enjoy building
-            real-world applications using React Native, React, Node.js, MongoDB,
-            APIs, and Figma.
+            I’m a final-year Software Engineering student at the University of
+            Central Punjab and a full-stack developer focused on building modern
+            web and mobile applications. I work across React, Next.js, React
+            Native, Node.js, Express.js, MongoDB, REST APIs, and modern UI/UX.
+            <br />
+            <br />
+            My experience includes personal products, academic systems, and real
+            client projects — from business and healthcare websites to mobile
+            applications and full-stack platforms. I enjoy taking an idea from
+            requirements and interface design through development, API
+            integration, database implementation, testing, and deployment.
+            <br />
+            <br />
+            Currently, I’m completing my final year while continuing to work on
+            real-world products and my Final Year Project, SafeZone — a smart
+            emergency evacuation system combining web, mobile, IoT, and
+            intelligent routing.
           </p>
         </div>
       </section>

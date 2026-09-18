@@ -12,19 +12,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Muhammad Awais | Full Stack & React Native Developer",
+  title: "Muhammad Awais | Software Engineer & Full-Stack Developer",
 
   description:
-    "Portfolio of Muhammad Awais, a Software Engineering student and developer specializing in React Native, MERN stack, Next.js, responsive websites, and modern web applications.",
+    "Muhammad Awais is a final-year Software Engineering student and full-stack developer specializing in React, Next.js, React Native, Node.js, MongoDB, and modern web and mobile applications.",
 
   keywords: [
     "Muhammad Awais",
-    "React Native Developer",
-    "MERN Stack Developer",
-    "Next.js Developer",
-    "Web Developer",
     "Software Engineer",
-    "Lahore Pakistan",
+    "Full Stack Developer",
+    "React Developer",
+    "Next.js Developer",
+    "React Native Developer",
+    "Node.js Developer",
+    "MERN Stack Developer",
+    "Web Developer",
+    "Mobile App Developer",
+    "Pakistan",
   ],
 
   authors: [
