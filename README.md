@@ -22,7 +22,7 @@ Modern developer portfolio built using Next.js, Tailwind CSS, and Framer Motion.
 
 ## Live Website
 
-https://muhammad-awais-portfolio-seven.vercel.app/
+https://awais-port.vercel.app/
 
 ## Author
 
